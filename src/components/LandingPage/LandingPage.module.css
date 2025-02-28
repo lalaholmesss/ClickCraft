@@ -1,0 +1,73 @@
+.container {
+    margin-top: 107px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome {
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+    background: var(--blue-purple-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header h1{
+    margin: 22px 0;
+    max-width: 1064px;
+    text-align: center;
+    padding: 0;
+    background: radial-gradient(circle, #ffffff, #ffffff50);
+    font-size: 4.75rem;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text {
+    padding-bottom: 40px;
+    font-size: 1.5rem;
+    color: var(--gray-color);
+    width: 677px;
+    text-align: center;
+}
+
+.btns button {
+    font-size: 1.125rem;
+    padding: 22px 40px;
+    border-radius: 40px;
+    background-color: transparent;
+    color: #ffffff;
+    border: solid 1.5px var(--dark-gray);
+    margin-right: 24px;
+    cursor: pointer;
+}
+
+.btns button:hover {
+    border-color: var(--extra-accent-color);
+}
+
+.btns .playBtn {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-right: 0;
+}
+
+.bgImage {
+    bottom: 24px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.bgImage img {
+    width: 100%;
+}

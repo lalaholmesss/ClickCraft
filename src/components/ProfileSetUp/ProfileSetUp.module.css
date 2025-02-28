@@ -1,0 +1,90 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texts h1{
+    text-align: center;
+    background: linear-gradient( #ffffff 30%, #ffffff50 85%);
+    font-size: 3.375rem;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.texts p {
+    width: 746px;
+    color: #77798F;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.profileCard {
+    display: flex;
+    flex-direction: row;
+    margin: 68px 100px;
+    height: 645px;
+    border-radius: 42px;
+    box-shadow: 0px 0px 5px var(--primary-color),  
+                0px 0px 10px var(--primary-color), 
+                0px 0px 5px var(--primary-color),  
+                0px 5px 5px var(--primary-color); 
+}
+
+.profileCard h2 {
+    font-size: 2.75rem;
+    font-weight: bold;
+    background: radial-gradient( #ffffff 30%, #ffffff50 85%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
+
+.profileCard p {
+    font-size: 1.6rem;
+    color: var(--gray-color);
+    line-height: 42px;
+}
+
+.star {
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+    background: var(--blue-purple-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.profileCard button {
+    background-color: transparent;
+    font-size: 1.125rem;
+    padding: 22px 40px;
+    border-radius: 40px;
+    color: var(--white-color);
+    border: solid 3px var(--dark-gray);
+    cursor: pointer;
+}
+
+.profileCard button:hover {
+    border-color: var(--extra-accent-color);
+}
+
+.image {
+    margin: 50px 55px;
+    box-sizing: border-box;
+    border: solid 1.5px var(--gray-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#000000 60%, #6633EE 100%, #ffffff 100%);
+    border-radius: 50px;
+}
+
+.content {
+    margin: 50px 86px 50px 48px;
+}

@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 40px 100px;
+    align-items: center;
+    position: relative;
+}
+
+.navigation a {
+    color: var(--gray-color);
+    text-decoration: none;
+    padding-right: 40px;
+    font-size: 1.5rem;
+}
+
+.navigation a:last-child {
+    padding-right: 0;
+}
+
+.navigation a:hover {
+    display: inline;
+    font-weight: bold;
+    color: var(--extra-accent-color);
+}
+
+.btns button{
+    font-size: 1rem;
+    padding: 16px 44px;
+    border-radius: 40px;
+    background-color: transparent;
+    color: var(--white-color);
+    border: solid 1.5px var(--dark-gray);
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.btns button:last-child {
+    margin-right: 0;
+}
+
+.btns button:hover {
+    border-color: var(--extra-accent-color);
+}

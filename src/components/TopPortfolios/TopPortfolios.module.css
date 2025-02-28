@@ -1,0 +1,72 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex: auto auto ;
+}
+
+h1 {
+    text-align: center;
+    background: var(--white-gradient);
+    font-size: 3.375rem;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 135px 0;
+}
+
+.cardsContainer {
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 135px;
+    column-gap: 30px;
+}
+
+.portfolioCard {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 700px;
+    border-radius: 42px;
+    padding: 60px 50px;
+    box-shadow: 0px 0px 5px #664DFF,  
+                0px 0px 10px #664DFF, 
+                0px 0px 5px #664DFF,  
+                0px 5px 5px #664DFF; 
+                cursor: pointer;
+    transition: transform 0.3s
+    
+}
+
+.portfolioCard:hover{
+    transform: scale(1.04);
+}
+
+.star {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    font-size: 1rem;
+    gap: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+    background-color: var(--white-color);
+    background: var(--blue-purple-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.portfolioCard h2 {
+    font-size: 2.75rem;
+    font-weight: bold;
+    background: radial-gradient( #ffffff 30%, #ffffff50 85%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
+
+.portfolioCard p {
+    font-size: 1.6rem;
+    color: var(--gray-color);
+    line-height: 42px;
+    margin-bottom: 76px;
+}

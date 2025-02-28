@@ -1,0 +1,20 @@
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Roboto';
+  background-color: rgb(1, 3, 20);
+  --primary-color: #664DFF;
+  --secondary-color: #627FFF;
+  --accent-color: #865BFF;
+  --extra-accent-color: #7241FF; 
+  --white-color: #FFFFFF;
+  --white-transparent: #FFFFFF50;
+  --gray-color: #77798F;
+  --dark-gray: #2A2B3A;
+  --white-gradient: linear-gradient(var(--white-color) 30%, var(--white-transparent) 85%);
+  --blue-purple-gradient: linear-gradient(var(--secondary-color) 7%, var(--accent-color) 86%);
+}
+
+
