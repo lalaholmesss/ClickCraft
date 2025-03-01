@@ -1,0 +1,42 @@
+.container {
+    margin: 135px 0 45px 0;
+}
+
+
+
+.usersContainer {
+    box-sizing: border-box;
+    height: 200px;
+    margin: 20px 100px;
+    border: solid 1px var(--dark-gray);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    padding: 25px 100px;
+    justify-content: center;
+    gap: 24px;
+}
+
+.container h2 {
+    text-align: center;
+    font-size: 2.75rem;
+    font-weight: bold;
+    background: radial-gradient( #ffffff 30%, #ffffff50 85%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
+
+.usersContainer p {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--white-color);
+    text-align: center;
+    margin-top: 0;
+    position: relative;
+    right: 8px;
+}
+
+.userCard{
+    cursor: pointer;
+}

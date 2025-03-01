@@ -2,6 +2,9 @@ import Navbar from "./components/Navbar/Navbar";
 import LandingPage from "./components/LandingPage/LandingPage";
 import ProfileSetUp from "./components/ProfileSetUp/ProfileSetUp";
 import TopPortfolios from "./components/TopPortfolios/TopPortfolios";
+import  RecentUsers  from "./components/RecentUsers/RecentUsers";
+import ReachOut from "./components/ReachOut/ReachOut";
+import Footer from "./components/Footer/Footer";
 function App() {
 
     return(
@@ -10,7 +13,10 @@ function App() {
         <LandingPage />
         <ProfileSetUp />
         <TopPortfolios />
-      </div>
+        <RecentUsers />
+        <ReachOut />
+        <Footer />
+        </div>
     )
 }
 

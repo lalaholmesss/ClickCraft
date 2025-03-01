@@ -19,6 +19,7 @@ h1 {
     grid-template-columns: auto auto;
     row-gap: 135px;
     column-gap: 30px;
+    
 }
 
 .portfolioCard {
@@ -33,8 +34,7 @@ h1 {
                 0px 0px 5px #664DFF,  
                 0px 5px 5px #664DFF; 
                 cursor: pointer;
-    transition: transform 0.3s
-    
+    transition: transform 0.3s;
 }
 
 .portfolioCard:hover{
