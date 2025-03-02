@@ -1,20 +1,21 @@
 import Navbar from "./components/Navbar/Navbar";
-import LandingPage from "./components/LandingPage/LandingPage";
-import ProfileSetUp from "./components/ProfileSetUp/ProfileSetUp";
-import TopPortfolios from "./components/TopPortfolios/TopPortfolios";
-import  RecentUsers  from "./components/RecentUsers/RecentUsers";
-import ReachOut from "./components/ReachOut/ReachOut";
 import Footer from "./components/Footer/Footer";
-function App() {
+import Home from "./pages/Home";
+import Portfolios from "./pages/Portfolios";
+import Community from "./pages/Community";
+import AboutUs from "./pages/AboutUs";
+import { Routes, Route } from "react-router";
 
+function App() {
     return(
       <div>
         <Navbar/>
-        <LandingPage />
-        <ProfileSetUp />
-        <TopPortfolios />
-        <RecentUsers />
-        <ReachOut />
+        <Routes>
+          <Route path="/" element={<Home/>}/>
+          <Route path="/Portfolios" element={<Portfolios/>}/>
+          <Route path="/Community" element={<Community/>}/>
+          <Route path="/About" element={<AboutUs/>}/>
+        </Routes>
         <Footer />
         </div>
     )

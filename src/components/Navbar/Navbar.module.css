@@ -7,19 +7,23 @@
     position: relative;
 }
 
-.navigation a {
+.navigation ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+.navigation li {
     color: var(--gray-color);
-    text-decoration: none;
     padding-right: 40px;
     font-size: 1.5rem;
+    cursor: pointer;
 }
 
-.navigation a:last-child {
+.navigation li:last-child {
     padding-right: 0;
 }
 
-.navigation a:hover {
-    display: inline;
+.navigation li:hover {
     font-weight: bold;
     color: var(--extra-accent-color);
 }
