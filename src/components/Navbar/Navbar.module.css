@@ -33,12 +33,15 @@
     border: solid 1.5px var(--dark-gray);
     margin-right: 16px;
     cursor: pointer;
-}
-
-.btns button:last-child {
-    margin-right: 0;
+    transition-duration: 0.8s;
+    transition-property: border-color box-shadow;
 }
 
 .btns button:hover {
     border-color: var(--extra-accent-color);
+    box-shadow: 0px 4px 100px 0px #664DFF33;
+}
+
+.btns button:last-child {
+    margin-right: 0;
 }

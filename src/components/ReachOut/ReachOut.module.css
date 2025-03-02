@@ -4,12 +4,13 @@
 }
 
 .container {
+    border: 2px solid var(--primary-color);
     padding: 100px;
     display: flex;
     flex-direction: row;
     gap: 80px;
     border-radius: 30px;
-    box-shadow: 0 16px 80px 0 var(--primary-color);
+    box-shadow: 0px 4px 100px 0px #664DFF33;
     height: 600px;
     box-sizing: border-box;
     align-items: center;
