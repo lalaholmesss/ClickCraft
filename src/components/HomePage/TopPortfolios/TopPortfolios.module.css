@@ -32,7 +32,7 @@ h1 {
     box-shadow: 0px 4px 100px 0px #664DFF33;
     cursor: pointer;
     transition: transform 0.3s;
-    border: 2px solid var(--primary-color);
+    border: 1px solid var(--primary-color);
 }
 
 .portfolioCard:hover{

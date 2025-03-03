@@ -4,7 +4,8 @@
 }
 
 .container {
-    border: 2px solid var(--primary-color);
+    border-top: 1px solid var(--primary-color);
+    border-bottom: 3px solid var(--primary-color);
     padding: 100px;
     display: flex;
     flex-direction: row;
