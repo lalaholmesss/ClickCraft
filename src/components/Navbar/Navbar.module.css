@@ -8,23 +8,29 @@
 }
 
 .navigation ul{
+    gap: 40px;
     list-style-type: none;
     display: flex;
     flex-direction: row;
 }
-.navigation li {
+
+.navItem {
+    text-decoration: none;
     color: var(--gray-color);
-    padding-right: 40px;
     font-size: 1.5rem;
     cursor: pointer;
+    transition: 0.3s color;
 }
 
-.navigation li:last-child {
-    padding-right: 0;
+.activeNavItem {
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: 0.3s color;
+    text-decoration: none;
+    color: var(--extra-accent-color);
 }
 
-.navigation li:hover {
-    font-weight: bold;
+.navItem:hover {
     color: var(--extra-accent-color);
 }
 
