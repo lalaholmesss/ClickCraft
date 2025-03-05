@@ -1,0 +1,116 @@
+.container {
+    padding: 80px 100px;
+    text-align: center;
+    max-width: 1720px;
+}
+
+.profCard {
+    border-radius: 20px;
+    border: 1px solid var(--primary-color);
+    border-bottom: 5px solid var(--primary-color);
+    box-shadow: 0px 4px 100px 0px #664DFF33;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 120px;
+}
+
+.engagement {
+    color: var(--white-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 32px;
+    margin: 40px 0;
+    font-size: 24px;
+}
+
+.boldTxt {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.aboutContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    text-align: left;
+}
+
+.aboutContainer .txt {
+    font-size: 20px;
+    color: var(--gray-color);
+    line-height: 160%;
+}
+
+.headerTxt {
+    font-size: 34px;
+    font-weight: bold;
+    background: radial-gradient( #ffffff 30%, #ffffff50 85%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.boldTxt {
+    color: var(--white-color);
+    font-weight: bold;
+    font-size: 32px;
+}
+
+button {
+    font-size: 16px;
+    color: var(--white-color);
+    padding: 16px 40px;
+    border: 3px solid var(--primary-color);
+    border-radius: 10px;
+    background: transparent;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    box-shadow: 0px 4px 100px 0px #664DFF33;
+}
+
+.userImg img {
+    border: 3px solid var(--primary-color);
+    border-radius: 50%;
+}
+
+.portfolio {
+    text-align: left;
+}
+
+.portfolioContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 160px;
+}
+
+.portfolioCard {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: 1px solid var(--primary-color);
+    border-top: 3px solid var(--primary-color);
+    border-bottom: 5px solid var(--primary-color);
+    padding: 18px 12px;
+}
+
+.icons {
+    padding-top: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--white-color);
+}
+
+.favIcons {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}
