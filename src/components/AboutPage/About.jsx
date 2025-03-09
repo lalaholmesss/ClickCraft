@@ -4,20 +4,24 @@ export default function AboutUs() {
     return(
         <div className={styles.container}>
             <div className={styles.profCard}>
-                <div className={styles.userImg}>
-                    <img src="images/Founder.png" alt="" />
-                    <p>Yagma Kusumanchi</p>
-                    <button>Edit Profile</button>
+                <div className={styles.userInfo}>
+                    <div className={styles.userImg}>
+                        <img src="images/UserImg.png" alt="" />
+                    </div>
+                    <p className={styles.userName}>Yagna Kusumanchi</p>
+                    <button className={styles.editBtn}>Edit Profile</button>
                 </div>
                 <div className={styles.engagement}>
                     <div>
                         <span className={styles.boldTxt}>1300</span>
                         <p>Views</p>
                     </div>
+                    <div className={styles.divider}></div>
                     <div>
                         <span className={styles.boldTxt}>899</span>
                         <p>Followers</p>
                     </div>
+                    <div className={styles.divider}></div>
                     <div>
                         <span className={styles.boldTxt}>560</span>
                         <p>Likes</p>
